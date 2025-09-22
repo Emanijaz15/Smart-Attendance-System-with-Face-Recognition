@@ -5,7 +5,7 @@ import os
 import pandas as pd
 from datetime import datetime
 
-def load_known_faces(dataset_dir='dataset'):
+def load_known_faces(dataset_dir='dataset'): 
     known_encodings = []
     known_names = []
     for filename in os.listdir(dataset_dir):
